@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+body {
+  position:relative;
+  margin:0px;
+  background-image: url("clouds.jpeg");
+  background-size: cover;
+}
+
+b{
+font-family: 'Fredoka One', cursive;
+color: yellow;
+}
+
+::selection {
+  background: none; 
+}
+
+#text{
+  
+  font-size:25px;
+  font-family: 'Baloo 2', cursive;
+  line-height: 30px;
+  color: white;
+}
+
+#canvas{
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+
+}
+
+.emoji {
+  font-size: 28px;
+  position: absolute;
+}
